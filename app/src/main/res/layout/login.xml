@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:stretchColumns="1"
+>
+    <TableRow>
+        <TextView
+                    android:layout_height="wrap_content"
+                    android:text="账号"
+        />
+        <EditText
+                    android:layout_height="wrap_content"
+                    android:id="@+id/account"
+                    android:hint="Input your account"
+        />
+    </TableRow>
+    <TableRow>
+        <TextView
+                    android:layout_height="wrap_content"
+                    android:text="密码"
+        />
+        <EditText
+                    android:layout_height="wrap_content"
+                    android:id="@+id/password"
+                    android:inputType="textPassword"
+        />
+    </TableRow>
+    <TableRow>
+        <Button
+                android:id="@+id/button"
+                android:layout_height="wrap_content"
+                android:layout_span="2"
+                android:text="Login"
+        />
+    </TableRow>
+</TableLayout>
